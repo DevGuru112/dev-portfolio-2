@@ -13,7 +13,7 @@ import Typography from '@material-ui/core/Typography';
 
 import project1 from '../image/todoAppReactWithFirebase.png';
 import project2 from '../image/reactWeatherApp.png';
-import project3 from '../image/portfolioUsingReact.png';
+import project3 from '../image/portfolioUsingReact1.png';
 
 const useStyles = makeStyles((theme) => ({
   heading: {

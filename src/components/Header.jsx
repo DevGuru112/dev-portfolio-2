@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typography, Avatar, Grid, Box } from '@material-ui/core';
-import avatar from '../image/myImage.jpg';
+import avatar from '../image/Alex Marquez.png';
 import Typed from 'react-typed';
 import { makeStyles } from '@material-ui/core/styles';
 import HomeContract from './HomeContract';
@@ -39,7 +39,7 @@ const Header = () => {
         <Avatar className={classes.avater} src={avatar} alt="Sakil Khan" />
       </Grid>
       <Typography className={classes.title} variant="h4">
-        <Typed strings={['Sakil Khan']} typeSpeed={100} />
+        <Typed strings={['Alex Marquez']} typeSpeed={100} />
       </Typography>
       <br />
       <Typography className={classes.subtitle} variant="h5">

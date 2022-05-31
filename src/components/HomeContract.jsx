@@ -25,15 +25,15 @@ const contracts = [
     id: 1,
     name: 'GitHub',
     icon: GitHubIcon,
-    username: 'sakilk130',
-    link: 'https://github.com/sakilk130',
+    username: 'Alex0112',
+    link: 'https://github.com/DevGuru112',
   },
   {
     id: 2,
     name: 'LinkedIn',
     icon: LinkedInIcon,
-    username: 'sakil-khan-076926145',
-    link: 'https://www.linkedin.com/in/sakil-khan-076926145/',
+    username: 'Alex-Marquez-076926145',
+    link: '',
   },
 ];
 function HomeContract() {
