@@ -131,8 +131,8 @@ const Resume = () => {
         </Typography>
         <Box component="div" className={classes.timeLine}>
           {/* start */}
-          {resumes.map((resume) => (
-            <>
+          {resumes.map((resume, index) => (
+            <div key={index}>
               <Typography
                 variant="h2"
                 className={`${classes.timeLineYear} ${classes.timeLineItem}`}
@@ -156,7 +156,7 @@ const Resume = () => {
                   <a
                     style={{ textDecoration: 'none', color: 'tomato' }}
                     href={resume.companyUrl}
-                    target="_blank"
+                    target="blank"
                   >
                     {resume.companyName}
                   </a>
@@ -170,7 +170,7 @@ const Resume = () => {
                   {resume.description}
                 </Typography>
               </Box>
-            </>
+            </div>
           ))}
           {/* end */}
         </Box>
