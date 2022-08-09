@@ -14,7 +14,7 @@ import {
 } from '@material-ui/core';
 import { AssignmentInd, Home, Apps, ContactMail } from '@material-ui/icons';
 import ClearAllIcon from '@material-ui/icons/ClearAll';
-import myImage from '../image/Alex Marquez.png';
+import myImage from '../image/333.png';
 import { makeStyles } from '@material-ui/core/styles';
 import SliderOpen from '@material-ui/core/Drawer';
 import { Link } from 'react-router-dom';
@@ -91,7 +91,7 @@ function Navbar() {
       className={classes.menuSlide}
       onClick={toggleSlide(slider, false)}
     >
-      <Avatar className={classes.myImage} src={myImage} alt="Sakil Khan" />
+      <Avatar className={classes.myImage} src={myImage} alt="Tsung Han" />
       <Divider />
       <List>
         {menuItems.map((item, key) => (

@@ -26,7 +26,7 @@ const contracts = [
     name: 'GitHub',
     icon: GitHubIcon,
     username: 'Alex0112',
-    link: 'https://github.com/DevGuru112',
+    link: 'https://github.com/devmgod',
   },
   {
     id: 2,
