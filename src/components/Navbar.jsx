@@ -14,7 +14,7 @@ import {
 } from '@material-ui/core';
 import { AssignmentInd, Home, Apps, ContactMail } from '@material-ui/icons';
 import ClearAllIcon from '@material-ui/icons/ClearAll';
-import myImage from '../image/333.png';
+import myImage from '../image/profile-pic (5).png';
 import { makeStyles } from '@material-ui/core/styles';
 import SliderOpen from '@material-ui/core/Drawer';
 import { Link } from 'react-router-dom';
@@ -26,8 +26,13 @@ import SchoolIcon from '@material-ui/icons/School';
 const useStyles = makeStyles((theme) => ({
   menuSlide: {
     width: 250,
-    background:
-      'linear-gradient(90deg,rgba(2, 0, 36, 1) 26%,rgba(79, 4, 27, 1) 100%,rgba(2, 0, 36, 1) 100%)',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundImage: "url(1.jpg)",
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
     height: '100%',
   },
   myImage: {
@@ -42,6 +47,13 @@ const useStyles = makeStyles((theme) => ({
   listIcon: {
     color: 'tan',
   },
+  fixed: {
+    overflow: 'hidden',
+    position: 'fixed',
+    top: '0',
+    width: '100%',
+    zIndex: '100'
+  }
 }));
 
 const menuItems = [
@@ -91,7 +103,7 @@ function Navbar() {
       className={classes.menuSlide}
       onClick={toggleSlide(slider, false)}
     >
-      <Avatar className={classes.myImage} src={myImage} alt="Tsung Han" />
+      <Avatar className={classes.myImage} src={myImage} alt="Dentarious Horn" />
       <Divider />
       <List>
         {menuItems.map((item, key) => (
@@ -110,8 +122,8 @@ function Navbar() {
 
   return (
     <>
-      <Box component="nav">
-        <AppBar position="static" style={{ background: '#222' }}>
+      <Box component="nav" className={classes.fixed}>
+        <AppBar position="static" style={{ backgroundImage: "url('2.jpg')", backgroundPosition: 'center', backgroundSize: 'cover' }}>
           <Toolbar>
             <IconButton onClick={toggleSlide('right', true)}>
               <ClearAllIcon style={{ background: '#E74C3C' }} />
@@ -125,7 +137,7 @@ function Navbar() {
                   textDecoration: 'none',
                 }}
               >
-                Sakil Khan
+                Dentarious Horn
               </a>
             </Typography>
             <SliderOpen

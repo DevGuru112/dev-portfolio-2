@@ -32,8 +32,8 @@ const contracts = [
     id: 2,
     name: 'LinkedIn',
     icon: LinkedInIcon,
-    username: 'Alex-Marquez-076926145',
-    link: '',
+    username: 'horn-dentarious-525417256',
+    link: 'https://linkedin.com/in/horn-dentarious-525417256',
   },
 ];
 function HomeContract() {
@@ -45,7 +45,7 @@ function HomeContract() {
           <BottomNavigationAction
             key={contract.id}
             icon={<contract.icon />}
-            target="blank"
+            target="_blank"
             href={contract.link}
             title={contract.username}
           />

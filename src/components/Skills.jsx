@@ -15,7 +15,7 @@ import {
 const useStyles = makeStyles({
   Particles: {
     position: 'fixed',
-    opacity: '0.3',
+    opacity: '0.5',
   },
   heading: {
     color: 'tomato',

@@ -10,12 +10,17 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import Particles from 'react-particles-js';
 
 import project1 from '../image/todoAppReactWithFirebase.png';
 import project2 from '../image/reactWeatherApp.png';
 import project3 from '../image/portfolioUsingReact1.png';
 
 const useStyles = makeStyles((theme) => ({
+  Particles: {
+    position: 'fixed',
+    opacity: '0.6',
+  },
   heading: {
     color: 'tomato',
     paddingTop: '1.5rem',
@@ -90,6 +95,47 @@ const Portfolio = () => {
   return (
     <>
       <Navbar />
+      <Particles
+      canvasClassName={classes.Particles}
+      params={{
+        particles: {
+          number: {
+            value: 45,
+            density: {
+              enable: true,
+              value_area: 900,
+            },
+          },
+          shape: {
+            type: 'circle',
+            stroke: {
+              width: 1,
+              color: 'tomato',
+            },
+          },
+          size: {
+            value: 3,
+            random: true,
+            animation: {
+              enable: true,
+              speed: 10,
+              size_min: 0.1,
+              sync: true,
+            },
+          },
+          opacity: {
+            value: 1,
+            random: true,
+            animation: {
+              enable: true,
+              speed: 1,
+              opacity_min: 0.1,
+              sync: true,
+            },
+          },
+        },
+      }}
+    />
       <Box component="div" className={classes.mainContainer}>
         <Typography variant="h4" align="center" className={classes.heading}>
           Projects

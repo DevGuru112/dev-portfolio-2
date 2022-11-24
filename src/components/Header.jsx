@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typography, Avatar, Grid, Box } from '@material-ui/core';
-import avatar from '../image/Alex Marquez.png';
+import avatar from '../image/profile-pic (8).png';
 import Typed from 'react-typed';
 import { makeStyles } from '@material-ui/core/styles';
 import HomeContract from './HomeContract';
@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
   avater: {
     width: theme.spacing(25),
     height: theme.spacing(25),
-    margin: theme.spacing(1),
+    margin: theme.spacing(5),
   },
   title: {
     color: 'tomato',
@@ -36,16 +36,17 @@ const Header = () => {
   return (
     <Box className={classes.typedContainer}>
       <Grid container justify="center">
-        <Avatar className={classes.avater} src={avatar} alt="Sakil Khan" />
+        <Avatar className={classes.avater} src={avatar} alt="Dentarious Horn" />
       </Grid>
       <Typography className={classes.title} variant="h4">
-        <Typed strings={['Alex Marquez']} typeSpeed={100} />
+        <Typed strings={['Dentarious Horn', 'Horn']} typeSpeed={100} backSpeed={60} loop />
       </Typography>
       <br />
       <Typography className={classes.subtitle} variant="h5">
         <Typed
           strings={[
-            'JavaScript Developer',
+            'Full Stack Developer',
+            'Blockchain Developer',
             'MERN Stack Developer',
             'Web Developer',
           ]}

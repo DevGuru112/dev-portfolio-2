@@ -19,7 +19,7 @@ function Footer() {
   return (
     <>
       <div width="auto" style={{ background: '#222' }}>
-        <Typography className={classes.root} style={{ color: 'tomato' }}>
+        <Typography className={classes.root} style={{ color: 'yellow' }}>
           Made with <span> </span>
           <img
             src="https://twemoji.maxcdn.com/2/72x72/2764.png"
@@ -27,7 +27,7 @@ function Footer() {
             className={classes.love}
           />
           <span> </span>
-          by Sakil Khan
+          by Dentarious Horn
         </Typography>
       </div>
     </>

@@ -9,7 +9,7 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles({
   Particles: {
     position: 'fixed',
-    opacity: '0.3',
+    opacity: '0.5',
   },
 });
 function Index() {
@@ -18,7 +18,6 @@ function Index() {
   return (
     <>
       <Navbar />
-      <Header />
       <Particles
         canvasClassName={classes.Particles}
         params={{
@@ -60,7 +59,8 @@ function Index() {
           },
         }}
       />
-      {/* <Particles /> */}
+      <Header />
+      <Particles />
     </>
   );
 }
