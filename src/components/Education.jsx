@@ -119,23 +119,23 @@ const useStyles = makeStyles((theme) => ({
 const educations = [
   {
     id: 1,
-    year: 'January 2017 - Present',
-    universityName: 'American International University-Bangladesh (AIUB)',
-    department: 'Bachelor of Science in Computer Science & Engineering',
+    year: 'February 2020 - March 2020',
+    universityName: 'Advanced Python/Django Course, Udemy',
+    department: 'Certified Advanced Python/Django Course',
     description: '',
   },
   {
     id: 2,
-    year: 'April 2014 - December 2016',
-    universityName: 'Shahmukhdum College, Rajshahi',
-    department: 'Higher Secondary School Certificate',
+    year: 'November 2019 - December 2019',
+    universityName: 'Advanced React Course, Udemy',
+    department: 'Certified React Course',
     description: '',
   },
   {
     id: 3,
-    year: 'January 2009 - December 2013',
-    universityName: 'Asian School & College, Nachole',
-    department: 'Secondary School Certificate',
+    year: 'April 2007 - April 2011',
+    universityName: 'Tuskegee University',
+    department: 'Bachelor of Science in Computer Science & Engineering',
     description: '',
   },
 ];

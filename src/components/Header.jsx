@@ -46,9 +46,7 @@ const Header = () => {
         <Typed
           strings={[
             'Full Stack Developer',
-            'Blockchain Developer',
-            'MERN Stack Developer',
-            'Web Developer',
+            'Blockchain Engineer',
           ]}
           typeSpeed={70}
           backSpeed={60}

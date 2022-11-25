@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundImage: "url(1.jpg)",
+    backgroundImage: "url('img/1.jpg')",
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     height: '100%',
@@ -123,7 +123,7 @@ function Navbar() {
   return (
     <>
       <Box component="nav" className={classes.fixed}>
-        <AppBar position="static" style={{ backgroundImage: "url('2.jpg')", backgroundPosition: 'center', backgroundSize: 'cover' }}>
+        <AppBar position="static" style={{ backgroundImage: "url('img/2.jpg')", backgroundPosition: 'center', backgroundSize: 'cover' }}>
           <Toolbar>
             <IconButton onClick={toggleSlide('right', true)}>
               <ClearAllIcon style={{ background: '#E74C3C' }} />
