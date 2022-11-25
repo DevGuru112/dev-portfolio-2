@@ -26,6 +26,7 @@ const useStyles = makeStyles({
   mainContainer: {
     height: '100%',
     padding: '1rem',
+    marginTop: '64px'
   },
   cardContainer: {
     maxWidth: 450,
@@ -140,6 +141,66 @@ const skills = [
   {
     title: 'npm',
     logo: 'https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg',
+  },
+  {
+    title: 'C#/.Net',
+    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+  },
+  {
+    title: 'Python',
+    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+  },
+  {
+    title: 'C++',
+    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+  },
+  {
+    title: 'Java',
+    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+  },
+  {
+    title: 'Ethereum',
+    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+  },
+  {
+    title: 'Bitcoin',
+    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+  },
+  {
+    title: 'Solidity',
+    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+  },
+  {
+    title: 'Defi',
+    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+  },
+  {
+    title: 'MySQL',
+    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+  },
+  {
+    title: 'Docker',
+    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+  },
+  {
+    title: 'SQL',
+    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+  },
+  {
+    title: 'MERN Stack',
+    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+  },
+  {
+    title: 'GitHub',
+    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+  },
+  {
+    title: 'GitHub',
+    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+  },
+  {
+    title: 'GitHub',
+    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
   },
   {
     title: 'GitHub',
