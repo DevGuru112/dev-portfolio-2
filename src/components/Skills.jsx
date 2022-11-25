@@ -50,7 +50,7 @@ const useStyles = makeStyles({
     fontSize: '20px',
   },
   language: {
-    background: 'white',
+    background: '#d5cbcb38',
     margin: '1.5rem auto',
     borderRadius: '0.5rem ',
     padding: '1.5rem',
@@ -120,7 +120,7 @@ const skills = [
   },
   {
     title: 'VS Code',
-    logo: 'https://cdn.worldvectorlogo.com/logos/visual-studio-code.svg',
+    logo: 'https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg',
   },
 
   {
@@ -135,7 +135,7 @@ const skills = [
   {
     title: 'Linux',
     logo:
-      'https://www.freepnglogos.com/uploads/linux-png/file-icons-flat-linux-svg-wikimedia-commons-6.png',
+      'https://www.vectorlogo.zone/logos/linux/linux-icon.svg',
   },
   {
     title: 'npm',
@@ -207,7 +207,7 @@ function Skills() {
                         <span className={classes.languageView}>
                           <Avatar
                             src={skill.logo}
-                            style={{ marginRight: '10px' }}
+                            style={{ marginRight: '10px', borderRadius: '0%' }}
                           />
                           {skill.title}
                         </span>
