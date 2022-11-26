@@ -54,7 +54,7 @@ const useStyles = makeStyles({
     background: '#d5cbcb38',
     margin: '1.5rem auto',
     borderRadius: '0.5rem ',
-    padding: '1.5rem',
+    padding: '1.5rem 15rem',
   },
   languageView: {
     display: 'flex',
