@@ -191,20 +191,20 @@ const skills = [
     logo: 'https://iconscout.com/icon/mern-stack-5363121.svg',
   },
   {
-    title: 'GitHub',
-    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+    title: 'Django',
+    logo: 'https://www.vectorlogo.zone/logos/djangoproject/djangoproject-icon.svg',
   },
   {
-    title: 'GitHub',
-    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+    title: 'AWS',
+    logo: 'https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg',
   },
   {
-    title: 'GitHub',
-    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+    title: 'Flask',
+    logo: 'https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg',
   },
   {
-    title: 'GitHub',
-    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+    title: 'Vue.js',
+    logo: 'https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg',
   },
 ];
 function Skills() {
