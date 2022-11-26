@@ -144,51 +144,51 @@ const skills = [
   },
   {
     title: 'C#/.Net',
-    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+    logo: 'https://www.vectorlogo.zone/logos/dotnet/dotnet-icon.svg',
   },
   {
     title: 'Python',
-    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+    logo: 'https://www.vectorlogo.zone/logos/python/python-icon.svg',
   },
   {
     title: 'C++',
-    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg',
   },
   {
     title: 'Java',
-    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+    logo: 'https://www.vectorlogo.zone/logos/java/java-icon.svg',
   },
   {
     title: 'Ethereum',
-    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+    logo: 'https://www.vectorlogo.zone/logos/ethereum/ethereum-icon.svg',
   },
   {
     title: 'Bitcoin',
-    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+    logo: 'https://www.vectorlogo.zone/logos/bitcoin/bitcoin-icon.svg',
   },
   {
     title: 'Solidity',
-    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/9/98/Solidity_logo.svg',
   },
   {
     title: 'Defi',
-    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+    logo: 'https://icons8.com/icon/xKMWJwpV60CF/defi',
   },
   {
-    title: 'MySQL',
-    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+    title: 'MariaDB',
+    logo: 'https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg',
   },
   {
     title: 'Docker',
-    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+    logo: 'https://www.vectorlogo.zone/logos/docker/docker-icon.svg',
   },
   {
-    title: 'SQL',
-    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+    title: 'SQLite',
+    logo: 'https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg',
   },
   {
     title: 'MERN Stack',
-    logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
+    logo: 'https://iconscout.com/icon/mern-stack-5363121.svg',
   },
   {
     title: 'GitHub',
