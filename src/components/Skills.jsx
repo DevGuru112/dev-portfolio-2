@@ -172,7 +172,7 @@ const skills = [
   },
   {
     title: 'Defi',
-    logo: 'https://icons8.com/icon/xKMWJwpV60CF/defi',
+    logo: 'img/defi.png',
   },
   {
     title: 'MariaDB',
@@ -188,7 +188,7 @@ const skills = [
   },
   {
     title: 'MERN Stack',
-    logo: 'https://iconscout.com/icon/mern-stack-5363121.svg',
+    logo: 'img/mern.png',
   },
   {
     title: 'Django',
